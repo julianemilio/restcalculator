@@ -8,7 +8,7 @@ import org.json.*;
 public class CalculatorClient implements ICalculator{
   
 	Client client;
-	private String serverUrl = "https://newton.now.sh/";
+	private String serverUrl = "https://newton.now.sh/api/v2/";
 	
 	public CalculatorClient()
 	{
